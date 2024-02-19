@@ -1,8 +1,12 @@
 {% extends "base.html" %}
+{% load static %}
 
 {% block title %}Home{% endblock %}
 
 {% block content %}
+    <picture>
+        <img src="{% static 'images/juice02.jpg' %}" alt="juice" />
+    </picture>
     <h1> Fresh juice to start your day </h1>
     <p>Refresh your lifestyle with our garden fresh organic juice menus..</p>
 {% endblock %}
